@@ -1,0 +1,10 @@
+*.class
+*.swp
+.classpath
+.settings
+build/*
+target
+*bin/*
+.svn
+*.jar
+.project

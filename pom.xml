@@ -8,10 +8,14 @@
 	<packaging>pom</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>template-java-web</name>
+	<name>Template Project</name>
 	<description>Java Web Template Project</description>
     <url>http://github.com/leoluz/java-web-template</url>
 	<inceptionYear>2011</inceptionYear>
+
+    <properties>
+        <org.springframework.version>3.0.5.RELEASE</org.springframework.version>
+    </properties>
 
 	<modules>
 		<module>template-core</module>

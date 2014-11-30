@@ -20,10 +20,17 @@ Installing:
 
     `$ mvn install`
 
-3. Then:
-
-    `$ mvn package`
-
 A war file will be generated at `<project-home>/template-web/target/template-web-0.0.1-SNAPSHOT.war`.
+
+Running:
+--------
+
+1. Go inside the web module:
+
+    `$ cf template-web`
+
+2. Start jetty:
+
+    `$ mvn jetty:run`
 
 [1]: http://www.springsource.org/       "Spring"

@@ -27,7 +27,7 @@ Running:
 
 1. Go inside the web module:
 
-    `$ cf template-web`
+    `$ cd template-web`
 
 2. Start jetty:
 

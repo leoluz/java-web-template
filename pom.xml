@@ -17,6 +17,16 @@
         <org.springframework.version>3.0.5.RELEASE</org.springframework.version>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.github.java-web-template</groupId>
+                <artifactId>template-core</artifactId>
+				<version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 	<modules>
 		<module>template-core</module>
 		<module>template-web</module>

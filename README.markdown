@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/leoluz/java-web-template.svg)](https://travis-ci.org/leoluz/java-web-template)
+
 Java Template Web Project
 =========================
 
